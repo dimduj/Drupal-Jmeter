@@ -1,0 +1,154 @@
+2015/04/03 13:21:02 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Loading user properties from: /Users/Dimitri/Code/Jmeter/apache-jmeter-2.12/bin/user.properties 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Loading system properties from: /Users/Dimitri/Code/Jmeter/apache-jmeter-2.12/bin/system.properties 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Setting JMeter property: host=site1.dpi247.dev 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Setting JMeter property: user=toto 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Setting JMeter property: password=toto 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Setting JMeter property: threads=2 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Setting JMeter property: edit_id=42 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Version 2.12 r1636949 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: java.version=1.6.0_65 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: os.arch=x86_64 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: os.version=10.10.2 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: file.encoding=MacRoman 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: JMeterHome=/Users/Dimitri/Code/Jmeter/apache-jmeter-2.12 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: user.dir  =/Users/Dimitri/Code/Jmeter 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: PWD       =/Users/Dimitri/Code/Jmeter 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: IP: 172.21.110.133 Name: MacBookPro.local FullName: 172.21.110.133 
+2015/04/03 13:21:02 INFO  - jmeter.services.FileServer: Default base='/Users/Dimitri/Code/Jmeter' 
+2015/04/03 13:21:02 INFO  - jmeter.services.FileServer: Set new base='/Users/Dimitri/Code/Jmeter' 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Loading file: Drupal7-Stress-Auth.jmx 
+2015/04/03 13:21:02 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2015/04/03 13:21:02 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2015/04/03 13:21:02 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.7 
+2015/04/03 13:21:02 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1618048 
+2015/04/03 13:21:02 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2015/04/03 13:21:02 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2015/04/03 13:21:02 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2015/04/03 13:21:02 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2015/04/03 13:21:02 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2015/04/03 13:21:02 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2015/04/03 13:21:02 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2015/04/03 13:21:02 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2015/04/03 13:21:02 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2015/04/03 13:21:02 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2015/04/03 13:21:02 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2015/04/03 13:21:02 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2015/04/03 13:21:02 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2015/04/03 13:21:02 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2015/04/03 13:21:02 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2015/04/03 13:21:02 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2015/04/03 13:21:03 INFO  - jmeter.JMeter: Running test (1428060063039) 
+2015/04/03 13:21:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Authenticated Browsing 
+2015/04/03 13:21:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Authenticated Browsing. 
+2015/04/03 13:21:03 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/04/03 13:21:03 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 0 perThread 0.0 delayedStart=false 
+2015/04/03 13:21:03 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2015/04/03 13:21:03 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2015/04/03 13:21:03 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2015/04/03 13:21:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Anonymous Browsing 
+2015/04/03 13:21:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Anonymous Browsing. 
+2015/04/03 13:21:03 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/04/03 13:21:03 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 2 ramp-up 0 perThread 0.0 delayedStart=false 
+2015/04/03 13:21:03 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2015/04/03 13:21:03 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2015/04/03 13:21:03 INFO  - jmeter.threads.JMeterThread: Thread started: Anonymous Browsing 2-2 
+2015/04/03 13:21:03 INFO  - jmeter.threads.JMeterThread: Thread started: Anonymous Browsing 2-1 
+2015/04/03 13:21:03 INFO  - jmeter.threads.JMeterThread: Thread started: Authenticated Browsing 1-1 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 INFO  - jmeter.services.FileServer: Stored: url_sections.csv Alias: url_sections.csv@1902716336 
+2015/04/03 13:21:03 INFO  - jmeter.services.FileServer: Stored: users.csv Alias: users.csv@1214238505 
+2015/04/03 13:21:03 INFO  - jmeter.threads.JMeterThread: Thread started: Authenticated Browsing 1-2 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 INFO  - jmeter.services.FileServer: Stored: url_sections.csv Alias: url_sections.csv@1214238505 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 INFO  - jmeter.services.FileServer: Stored: url_nodes.csv Alias: url_nodes.csv@1902716336 
+2015/04/03 13:21:03 INFO  - jmeter.services.FileServer: Stored: url_nodes.csv Alias: url_nodes.csv@1214238505 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:03 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 10 
+2015/04/03 13:21:03 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2015/04/03 13:21:03 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2015/04/03 13:21:03 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2015/04/03 13:21:03 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2015/04/03 13:21:04 INFO  - jmeter.reporters.Summariser: summary +      1 in     1s =    1.2/s Avg:   824 Min:   824 Max:   824 Err:     0 (0.00%) Active: 4 Started: 4 Finished: 0 
+2015/04/03 13:21:09 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:09 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:10 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:10 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:12 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:12 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:12 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:12 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:13 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:13 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:13 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:13 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:15 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:15 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:16 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:16 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:18 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:18 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:18 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:18 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:19 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:19 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:19 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:19 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:20 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:20 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:21 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:21 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:24 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:24 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:24 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:24 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:25 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:25 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:25 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:25 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:25 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:25 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:26 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:26 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:29 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:29 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:29 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:29 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:30 INFO  - jmeter.reporters.Summariser: summary +    113 in    27s =    4.2/s Avg:   922 Min:   449 Max:  1682 Err:     7 (6.19%) Active: 4 Started: 4 Finished: 0 
+2015/04/03 13:21:30 INFO  - jmeter.reporters.Summariser: summary =    114 in    27s =    4.2/s Avg:   921 Min:   449 Max:  1682 Err:     7 (6.14%) 
+2015/04/03 13:21:30 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 404 
+2015/04/03 13:21:30 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:30 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:30 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:30 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:30 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:32 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:32 WARN  - jmeter.config.CSVDataSet: Empty delimiter converted to ',' 
+2015/04/03 13:21:33 INFO  - jmeter.threads.JMeterThread: Thread is done: Authenticated Browsing 1-2 
+2015/04/03 13:21:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Authenticated Browsing 1-2 
+2015/04/03 13:21:33 INFO  - jmeter.threads.JMeterThread: Thread is done: Anonymous Browsing 2-2 
+2015/04/03 13:21:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonymous Browsing 2-2 
+2015/04/03 13:21:34 INFO  - jmeter.threads.JMeterThread: Thread is done: Authenticated Browsing 1-1 
+2015/04/03 13:21:34 INFO  - jmeter.threads.JMeterThread: Thread finished: Authenticated Browsing 1-1 
+2015/04/03 13:21:34 INFO  - jmeter.threads.JMeterThread: Thread is done: Anonymous Browsing 2-1 
+2015/04/03 13:21:34 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonymous Browsing 2-1 
+2015/04/03 13:21:34 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2015/04/03 13:21:34 INFO  - jmeter.services.FileServer: Close: url_sections.csv@1214238505 
+2015/04/03 13:21:34 INFO  - jmeter.services.FileServer: Close: url_nodes.csv@1214238505 
+2015/04/03 13:21:34 INFO  - jmeter.services.FileServer: Close: url_nodes.csv@1902716336 
+2015/04/03 13:21:34 INFO  - jmeter.services.FileServer: Close: users.csv@1214238505 
+2015/04/03 13:21:34 INFO  - jmeter.services.FileServer: Close: url_sections.csv@1902716336 
+2015/04/03 13:21:34 INFO  - jmeter.reporters.Summariser: summary +     19 in     5s =    4.1/s Avg:   863 Min:   441 Max:  1312 Err:     1 (5.26%) Active: 0 Started: 4 Finished: 4 
+2015/04/03 13:21:34 INFO  - jmeter.reporters.Summariser: summary =    133 in    31s =    4.3/s Avg:   913 Min:   441 Max:  1682 Err:     8 (6.02%) 
