@@ -1,4 +1,4 @@
-# Description
+## Description
 
 Ce repo contient des scénarios de Stress test JMeter pour Drupal 7.
 Certaines notions sont spécifiques à la distribution Drupal dpi247
@@ -12,7 +12,7 @@ Il y a plusieurs scénarios:
 
 
 
-# Preparation
+## Preparation
 
 Afin d'effectuer les tests de sur une DB réele, quelques steps de préparation sont nécéssaires:
 
@@ -34,10 +34,10 @@ Pour le fichier url-sections.csv
    LIMIT 1000;
 ```
 
-# Tests
+## Tests
 
 
-## Mode Anonyme (Drupal7-Stress-Anonymous)
+### Mode Anonyme (Drupal7-Stress-Anonymous)
 
 Ceci represente le parcours d'un utilisateur anonyme.
 
@@ -49,7 +49,7 @@ Ceci represente le parcours d'un utilisateur anonyme.
 
 
 
-## Mode Connecté (Drupal7-Stress-Auth)
+### Mode Connecté (Drupal7-Stress-Auth)
 
 Ceci represente le parcours d'un utilisateur anonyme.
 
@@ -60,24 +60,24 @@ Ceci represente le parcours d'un utilisateur anonyme.
 * Une autre page de section provenant de url_sections.csv
 * Fais un logout
 
-## Mode Webmaster (Todo)
+### Mode Webmaster (Todo)
 Work in progress.
 
-## Mode connecté avancé (Todo)
+### Mode connecté avancé (Todo)
 Work in progress.
 
-# Notes
 
+## Notes
 
-## Introduction de délais
+### Introduction de délais
 
-## Introduction d'un contraite de bande passante 
+### Introduction d'un contraite de bande passante 
 
 Il faut veiller à introduire des contraintes de bandes passantes sur le surf des visiteurs ( http://wiki.apache.org/jmeter/Controlling%20Bandwidth%20in%20JMeter%20to%20simulate%20different%20networks  )
 
 thx @tomhtml ;)
 
-## Parcours des fichiers CSV
+### Parcours des fichiers CSV
 
 Parcour la liste des urls-nodes et des url-sections et GET sequentiellement chacun une seule fois.
 
@@ -91,7 +91,7 @@ http://jmeter.apache.org/usermanual/component_reference.html#CSV_Data_Set_Config
 
 
 
-# Credits
+## Credits
 
 * http://www.metaltoad.com/blog/jmeter-test-plan-drupal
 * http://www.phase2technology.com/blog/using-jmeter-to-test-performance-of-drupal-with-authenticated-users/
