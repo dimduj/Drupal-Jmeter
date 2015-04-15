@@ -1,4 +1,4 @@
-##Description
+#Description
 
 Ce repo contient des scénarios de Stress test JMeter pour Drupal 7.
 Certaines notions sont spécifiques à la distribution Drupal dpi247
@@ -12,7 +12,7 @@ Il y a plusieurs scénarios:
 
 
 
-##Preparation
+#Preparation
 
 Afin d'effectuer les tests de sur une DB réele, quelques steps de préparation sont nécéssaires:
 
@@ -33,6 +33,8 @@ Pour le fichier url-sections.csv
   SELECT CONCAT('/section/', tid) FROM taxonomy_term_data WHERE vid = 3
    LIMIT 1000;
 ```
+
+#Tests
 
 
 ## Mode Anonyme (Drupal7-Stress-Anonymous)
@@ -58,6 +60,11 @@ Ceci represente le parcours d'un utilisateur anonyme.
 * Une autre page de section provenant de url_sections.csv
 * Fais un logout
 
+## Mode Webmaster (Todo)
+Work in progress.
+
+## Mode connecté avancé (Todo)
+Work in progress.
 
 # Notes
 
